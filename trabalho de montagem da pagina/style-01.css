@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');/* tipo da fonte no GoogleFonts*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); /* tipo da fonte no GoogleFonts para a tag footer*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Xanh+Mono&display=swap');
+head{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./Imagem/parque_lago.jpg);/* imagem para o fundo da pagina*/
+    /* https://unsplash.com/photos/Lvt7BnCpUJE */
+    background-position: center;
+  }
+header {
+   font-family:'Poor Story', cursive;
+    height: 100px;
+    padding-top: 2px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+   
+    text-align: center;
+  
+    background-image: linear-gradient(rgb(8, 8, 2),rgb(209, 78, 38),rgb(231, 243, 62)); /*função para criar um degrade de cores no texto*/
+background-clip: text;
+-webkit-background-clip: text;
+color:transparent;
+    }
+
+nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to left,rgb(137, 137, 216), rgb(38, 202, 38));
+}
+nav a{
+    color: rgb(11, 16, 85);
+    text-decoration: none;
+    margin: 20px 20px 100px 20px;
+    }
+li{
+    color: rgb(22, 7, 65);
+    text-decoration: none;
+}
+
+.inicial{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(240, 231, 231);
+    text-decoration: none;
+    margin: 50px;
+   background-image: url(./Imagem/folhas-secas-adubo.jpeg); /* imagem de fundo do lorem inicial*/
+   /*https://images.pexels.com/photos/3274847/pexels-photo-3274847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1*/
+   background-position: center; 
+   border: 5px solid rgb(235, 176, 14);
+   text-align: center;
+}
+
+figure {
+    border: thin #c0c0c07c solid;
+    display: flex;
+    flex-flow: column;
+    
+    padding: 5px;
+    max-width: 220px;
+    margin: 0px 0px 15px 50px;
+}
+img {
+    max-width: 220px;
+    max-height: 1500px;
+}
+
+figcaption {
+    background-image: linear-gradient(to right,rgb(30, 30, 224), rgb(15, 128, 15), rgb(251, 255, 0));/*função para criar um degrade de cores no texto*/
+    color:rgb(87, 12, 12);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.equipe{
+        background-image:linear-gradient(-45deg, rgb(22, 4, 63), rgb(79, 146, 79));/*função para criar um degrade de cores no texto com ângulo*/
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(228, 220, 220);
+        font-size: 1em;
+           }
+
+    summary{
+        color:rgb(27, 10, 10);
+        font-family: 'Xanh Mono', monospace;
+        font-size: 1.5em;
+            }
+            
+      .summary li{
+        color: rgb(218, 207, 203);/* muda a cor dos nomes e do RA na tag Footer*/
+        
+      } 
+   
+    footer{
+        background-image:linear-gradient(to right,rgb(216, 172, 51), rgb(39, 41, 9), rgb(29, 139, 44) );
+        font-family: 'Caveat', cursive;
+    padding-top: 2px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    color:rgb(243, 242, 248)
+     }
+    
+    
